@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Azeret Mono", monospace;
+}
+section {
+    width: 80%;
+    margin: 100px auto;
+}
+button {
+    font-family: "Azeret Mono", monospace;
+}
+
+/* Nav bar styles */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 38px 150px;
+    align-items: center;
+}
+nav > h1 {
+    color: #0D1321;
+}
+nav > button {
+    background: none;
+    padding: 17px 24px;
+    border: 1px solid #0D1321;
+    border-radius: 8px;
+    font-family: "Azeret Mono", monospace;
+}
+
+/* Header Hero styles */
+
+.hero-section {
+    background-image: url("../assets/Hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+.hero-section > img {
+    width: 240px;
+}
+.hero-section > h1 {
+    width: 50%;
+    text-align: center;
+    font-weight: bolder;
+    color: #0D1321;
+}
+.hero-section > p {
+    width: 50%;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #0d1321bf;
+}
+.hero-section > button {
+    background-color: #0D1321;
+    color: #fff;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 8px;
+    font-family: "Azeret Mono", monospace;
+}
+
+/* My choice section styles */
+
+.my-choice > h1 {
+    text-align: center;
+}
+.my-choice > p{
+    text-align: center;
+    width: 85%;
+    margin: 24px auto;
+    color: #0d1321a6;
+    font-size: 0.8rem;
+}
+
+
+.why-my-choice-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 80px;
+}
+.why-my-choice-card-details {
+    width: 40%;
+}
+.why-my-choice-card-details > h2 {
+    
+    color: #0d1321a6;
+    word-spacing: 5px;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+.why-my-choice-card-details > p {
+    word-spacing: 5px;
+    margin: 20px 0px;
+    font-size: 0.8rem;
+    color: #0d1321a6;
+}
+.why-my-choice-card-details > button {
+    background: none;
+    border: 1px solid #0D1321;
+    color: #0d1321a6;
+    padding: 8px 15px;
+    border-radius: 2px;
+
+}
+
+
+/* My inspriration section  */
