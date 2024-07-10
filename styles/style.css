@@ -51,6 +51,7 @@ nav > button {
     align-items: center;
     justify-content: center;
     gap: 32px;
+    padding: 40px;
 }
 .hero-section > img {
     width: 240px;
@@ -69,11 +70,14 @@ nav > button {
 }
 .hero-section > button {
     background-color: #0D1321;
-    color: #fff;
     padding: 15px 25px;
     border: none;
     border-radius: 8px;
     font-family: "Azeret Mono", monospace;
+}
+.hero-section > button > a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 /* My choice section styles */
@@ -116,10 +120,13 @@ nav > button {
 .why-my-choice-card-details > button {
     background: none;
     border: 1px solid #0D1321;
-    color: #0d1321a6;
     padding: 8px 15px;
     border-radius: 2px;
 
+}
+.why-my-choice-card-details > button > a {
+    text-decoration: none;
+    color: #0d1321a6;
 }
 
 
