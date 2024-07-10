@@ -192,3 +192,46 @@ nav > button {
 .my-current-target-card:last-child {
     background-color: hsla(52, 100%, 50%, 0.05);
 }
+
+/* Support section */
+
+.support-section {
+    background-image: linear-gradient(hsla(0, 0%, 0%, 0.5),hsla(0, 0%, 0%, 0.5)) ,url("../assets/handshake.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 313px;
+    width: 100%;
+    background-position: center;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.support-section > h1 {
+    color: white;
+}
+.support-section > p {
+    color: rgba(255, 255, 255, 0.68);
+    width: 50%;
+    text-align: center;
+    margin: 10px auto;
+    line-height: 1.2rem;
+}
+.support-section > form > input:first-child{
+    width: 500px;
+    padding: 15px;
+    border: none;
+    font-family: "Azeret Mono", monospace;
+    background-color: white;
+    border-radius: 5px;
+}
+.support-section > form > input:last-child{
+    padding: 15px;
+    font-family: "Azeret Mono", monospace;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
