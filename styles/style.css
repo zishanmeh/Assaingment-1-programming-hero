@@ -235,3 +235,24 @@ nav > button {
     border-radius: 5px;
     cursor: pointer;
 }
+
+/* Footer style */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 50px auto;
+}
+.footer-social-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.footer-social-links > a > img{
+    width: 30px;
+}
+footer > p {
+    font-weight: bold;
+    color: #0D1321;
+}
